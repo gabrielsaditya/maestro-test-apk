@@ -1,0 +1,35 @@
+appId: tech.jala.android.lite
+---
+#Launch Aplikasi Jala Lite
+- launchApp
+
+#Tap tombol masuk
+- tapOn: "Masuk"
+
+#Tap tombol "Masuk dengan No HP atau Email"
+- tapOn: "Masuk dengan No HP atau Email"
+
+#Tap tombol form "No. Handphone atau Email"
+- tapOn: 
+    text: "No. Handphone atau Email"
+    index: 1
+
+#Enter Text ke form "No. Handphone atau Email"
+- inputText: "08888321272"
+
+#Tap ke form "Kata Sandi"
+- tapOn:
+    text: "Kata Sandi"
+    index: 1
+
+#Enter Text ke form "Kata Sandi"
+- inputText: "jalaistimewa"
+
+#Tap font masuk supaya mengakali agar keyboard dapat turun (karena kalau tidak turun tidak bisa pick object tombol untuk Masuk)
+- tapOn:
+    text: "Masuk"
+
+#Tao tombol masuk paling bawah (warna biru)
+- tapOn: 
+    text: "Masuk"
+    index: 1
