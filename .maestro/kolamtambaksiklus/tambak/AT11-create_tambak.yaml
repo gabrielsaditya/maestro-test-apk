@@ -2,7 +2,7 @@ appId: tech.jala.android.lite
 ---
 - launchApp
 
-- runFlow: AT2-login_menggunakan-email.yaml
+- runFlow: login_email.yaml
 
 - tapOn:
     point: 303, 218
