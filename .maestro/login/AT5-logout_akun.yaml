@@ -21,7 +21,7 @@ appId: tech.jala.android.lite
     text: "Keluar"
 
 - extendedWaitUntil:
-    text: "Masuk"
+    visible: "Masuk"
     timeout: 10000
     label: "Redirect ke Halaman Login"
 
