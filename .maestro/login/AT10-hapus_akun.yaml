@@ -53,7 +53,7 @@ appId: tech.jala.android.lite
 ## Lanjut Step
 
 - tapOn:
-    point: 548, 1142
+    point: 545, 1155
     label: "Tap pada Akun"
 
 - tapOn:
@@ -71,9 +71,13 @@ appId: tech.jala.android.lite
 
 - hideKeyboard
 - tapOn: 
-    point: 47, 796
+    point: 42, 713
 
 - tapOn: "Hapus"
+
+### Assert Data
+- assertVisible: 
+    text: 
 
 
 
