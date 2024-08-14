@@ -1,0 +1,113 @@
+appId: tech.jala.android.lite
+---
+- clearstate
+- launchApp
+
+- runflow: login_email.yaml
+
+#pilih menu kolam
+- tapOn:
+    point: 235, 681
+
+#pilih field Automation Flutter
+- tapOn:
+    point: 150,220
+ 
+- tapOn: "A1"
+- tapOn: "Sampling"
+- tapOn: "Panen"
+- tapOn: "Kimia"
+- tapOn: 
+    text: "Catatan"
+
+- tapOn: 
+   text: "-"
+   index: 0
+- inputText: 
+    text: "100"
+    label: "Ketik 100"
+
+- hideKeyboard
+
+- tapOn: 
+    text: "-"
+    index: 1
+- inputText: 
+    text: "200"
+    label: "Ketik 200"
+
+- hideKeyboard
+
+- tapOn: 
+    text: "-"
+    index: 2
+- inputText: 
+    text: "300"
+    label: "Ketik 300"
+
+- hideKeyboard
+
+- tapOn:
+    text: "Parameter lainnya"
+
+-  scrollUntilVisible:
+    element:
+      text: "Kesadahan (Hardness) (ppm)" # or any other selecto
+      direction: DOWN
+      index: 1
+
+- tapOn: 
+    text: "-"
+    index: 3
+- inputText: 
+    text: "300"
+    label: "Ketik 400"
+
+- tapOn: "Simpan"
+
+# tap icon titik tiga
+- tapOn:
+    point:
+
+- tapOn:
+    text: "ubah"
+
+- tapOn: 
+    text: "-"
+    index: 0
+- inputText: 
+    text: "10,5"
+    label: "Ketik 10,5"
+
+- hideKeyboard
+
+- tapOn: 
+-   text: "-"
+-   index: 1
+- inputText: 
+    text: "20,7"
+    label: "Ketik 20,7"
+
+- hideKeyboard
+
+- tapOn: 
+    text: "-"
+    index: 2
+- inputText: 
+    text: "30,24"
+    label: "Ketik 30,24"
+
+- hideKeyboard
+
+- tapOn: "Simpan"
+
+# tap icon titik tiga
+- tapOn:
+    point:
+
+- tapOn:
+    text: "Hapus"
+
+- tapOn: "Ya, Saya Yakin"
+
+
