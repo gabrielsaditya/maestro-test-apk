@@ -70,15 +70,15 @@ tags:
 
 - waitForAnimationToEnd:
     timeout: 5000
-    
+
 - extendedWaitUntil:
     notVisible: 
         text: "Buat Tambak" # or any other selector
     timeout: 5000
 
 ## Assert data
-- assertVisible: 
-    text: "Tambak Berhasil Dibuat"
+- assertVisible: "Buat Kolam"
+- assertVisible: "Kembali ke Menu Utama"
 
 - stopApp
 #REVISI
