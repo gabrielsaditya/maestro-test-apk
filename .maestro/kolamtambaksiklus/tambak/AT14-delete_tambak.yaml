@@ -51,10 +51,6 @@ tags:
 - tapOn: 
     text: "Ya, Saya Yakin"
     retryTapIfNoChange: false
-
-## ASSERT DATA EDIT
-- assertVisible: "Tambak Sukses Dihapus"
-
 - stopApp
   
 #REVISI

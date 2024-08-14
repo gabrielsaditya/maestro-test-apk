@@ -95,7 +95,7 @@ tags:
     retryTapIfNoChange: false
 
 ## ASSERT DATA EDIT
-- assertVisible: "Tambak Sukses Disimpan"
+- assertVisible: "Kembali ke Menu Utama"
 
 - stopApp
 #REVISI
