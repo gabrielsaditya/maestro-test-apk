@@ -1,5 +1,13 @@
 appId: tech.jala.android.lite
+name: tambak_login
+tags:
+  - tag-build
+  - pull-request
+  - kolamtambaksiklus
+  - tambak
+  - login 
 ---
+- clearState
 - launchApp
 
 - tapOn:
@@ -50,3 +58,4 @@ appId: tech.jala.android.lite
     label: "Assert dapat masuk ke page Beranda"
 
 
+#REVISI
