@@ -2,7 +2,11 @@
 flows:
   - kolamtambaksiklus/tambak/*
 excludeTags:
-  - login
+  - AT11
+  - AT12
+  - AT13
+  - AT14
+
 executionOrder:
     continueOnFailure: false
     flowsOrder:
