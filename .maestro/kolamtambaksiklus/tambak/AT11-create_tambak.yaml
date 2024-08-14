@@ -56,7 +56,7 @@ tags:
     label: "Scroll sampai bawah"
 
 - tapOn:
-    text: "Masukkan alamat tambak Anda"
+    text: "Masukan alamat tambak Anda"
     label: "Isi field alamat"
 - inputText: "Kampung Nelayan Pantai Samas"
 
