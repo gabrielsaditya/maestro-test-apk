@@ -16,16 +16,28 @@ tags:
 # Login akun jala.automation
 - runFlow: login_email.yaml
 # Pilih menu [Kolam]
+- waitForAnimationToEnd:
+    timeout: 5000
 - tapOn: 
     point: 238, 689 #Kolam
 # Pilih field Tambak = "Test Automation"
+- waitForAnimationToEnd:
+    timeout: 5000
 - tapOn: 
     point: 306, 218 #Pilih field tambak
+- waitForAnimationToEnd:
+    timeout: 5000
 - tapOn: "Test Automation"
+
+- waitForAnimationToEnd:
+    timeout: 5000
 
 # Pilih icon Gear pada pojok kanan atas
 - tapOn:
     point: 573, 81 
+
+- waitForAnimationToEnd:
+    timeout: 5000
 # Pilih tombol [Hapus]
 - tapOn: "Hapus"
 # Pilih tombol [Ya, saya yakin]

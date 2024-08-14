@@ -13,18 +13,37 @@ tags:
 
 # Login akun jala.automation
 - runFlow: login_email.yaml
+
+- waitForAnimationToEnd:
+    timeout: 5000
+- extendedWaitUntil:
+    visible: 
+        text: "Kolam" # or any other selector
+    timeout: 5000
 # Pilih menu [Kolam]
 - tapOn: 
     point: 238, 689 #Kolam
 
+- waitForAnimationToEnd:
+    timeout: 5000
+
 # Pilih field Tambak = "Test Automation"
 - tapOn: 
     point: 306, 218 #Pilih field tambak
+
+- waitForAnimationToEnd:
+    timeout: 5000
 - tapOn: "Test Automation"
+
+- waitForAnimationToEnd:
+    timeout: 5000
 
 # Pilih icon Gear pada pojok kanan atas
 - tapOn:
     point: 573, 81 
+
+- waitForAnimationToEnd:
+    timeout: 5000
 
 ## ASSERT DATA
 - assertVisible: "Test Automation"
@@ -33,10 +52,12 @@ tags:
 - assertVisible: "PAJANGAN"
 - assertVisible: "TRIWIDADI"
 - scrollUntilVisible:
-    element: 
+    element:
       text: "Zona Waktu"
     direction: down
-
+- scroll
+- waitForAnimationToEnd:
+    timeout: 5000
 - assertVisible: "Indonesian Rupiah"
 
 - stopApp
