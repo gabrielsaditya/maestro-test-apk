@@ -56,7 +56,7 @@ tags:
 # Ubah field 'Kecamatan' = "Wanareja"
 - tapOn: "Pilih kecamatan"
 - tapOn: "cari"
-- inputText: "Wanareja"
+- inputText: "Wana"
 - tapOn: "WANAREJA"
 - hideKeyboard
 # Ubah field 'Kelurahan' = "Tambaksari"
