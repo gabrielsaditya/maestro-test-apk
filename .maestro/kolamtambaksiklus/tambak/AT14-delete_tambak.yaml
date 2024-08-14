@@ -18,7 +18,13 @@ tags:
         text: "Kolam" # or any other selector
     timeout: 10000
 - tapOn: 
+    text: "Lite"
+    repeat: 3
+    delay: 5000
+# Pilih menu [Kolam]
+- tapOn: 
     point: 238, 689 #Kolam
+    waitToSettleTimeoutMs: 5000 # ms
 # Pilih field Tambak = "Test Automation"
 - waitForAnimationToEnd:
     timeout: 20000

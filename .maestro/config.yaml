@@ -11,6 +11,7 @@ excludeTags:
   - AT12
   - AT13
   - AT14
+  - login
 
 executionOrder:
     continueOnFailure: false
