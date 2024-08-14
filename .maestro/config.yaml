@@ -1,6 +1,5 @@
 #config.yaml
 flows:
-  - kolamtambaksiklus/kolam/*
   - kolamtambaksiklus/tambak/*
 excludeTags:
   - login

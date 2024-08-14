@@ -14,15 +14,18 @@ tags:
 # Login akun jala.automation 
 - runFlow: login_email.yaml
 
-- waitForAnimationToEnd:
-    timeout: 20000
+- tapOn: 
+    text: "Lite"
+    repeat: 3
+    delay: 5000
 - extendedWaitUntil:
     visible: 
-        text: "Kolam" # or any other selector
+        text: "Estimasi tidak akurat. Lengkapi data pakan untuk meningkatkan estimasi akurasi" # or any other selector
     timeout: 10000
 # Pilih menu [Kolam]
 - tapOn: 
     point: 238, 689 #Kolam
+    waitToSettleTimeoutMs: 5000 # ms
 
 - waitForAnimationToEnd:
     timeout: 5000

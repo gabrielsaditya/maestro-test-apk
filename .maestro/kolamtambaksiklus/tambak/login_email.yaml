@@ -40,9 +40,7 @@ tags:
     text: "jalaistimewa"
     label: "Ketik password"
 
-- tapOn:
-    text: "Masuk"
-    label: "Menyembunyikan keyboard terlebih dahulu"
+- hideKeyboard
 
 - tapOn: 
     text: "Masuk"
