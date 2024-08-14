@@ -1,0 +1,119 @@
+appId: tech.jala.android.lite
+---
+- clearState
+- launchApp
+
+
+## [CREATE]
+
+# 1. Login akun jala.automation
+#    - Login ke aplikasi menggunakan akun "jala.automation"
+- runFlow: login_email.yaml
+
+# 2. Pilih menu [Kolam]
+#    - Navigasi ke menu "Kolam" di dalam aplikasi
+- tapOn: 
+    point: 238, 689 #Kolam
+
+# 3. Pilih field Tambak = "Test Automation"
+#    - Pilih Tambak dengan nama "Test Automation" dari daftar Tambak yang tersedia
+- tapOn: 
+    point: 306, 218 #Pilih field tambak
+- tapOn: "Test Automation"
+# 4. Pilih tombol [Tambah Kolam]
+#    - Klik tombol "Tambah Kolam" untuk menambahkan kolam baru
+- tapOn: "Tambah Kolam"
+
+# 5. Pilih tombol [Buat Kolam]
+#    - Klik tombol "Buat Kolamuntuk memulai proses pembuatan kolam baru
+- tapOn: "Buat Kolam"
+# 6. Input field nama awalan kolam = "AUT"
+#    - Masukkan nilai "AUT" sebagai awalan nama kolam
+- tapOn:
+    point: 300, 291
+- inputText: 
+    text: "AUT"
+    label: "Input field nama awalan kolam = AUT"
+
+- hideKeyboard
+# 7. Input field 'Nama Kolam' = "AUT2.1"
+#    - Masukkan nilai "AUT2.1" di field 'Nama Kolam'
+- tapOn:
+    point: 300, 613
+- eraseText
+- inputText:
+    text: "AUT2.1"
+    label: "Input field Nama Kolam = AUT2.1"
+- hideKeyboard
+# 8. Input field 'Panjang Kolam' = "10"
+#    - Masukkan nilai "10" di field 'Panjang Kolam'
+- tapOn:
+    point: 158, 827
+- inputText:
+    text: "10"
+    label: "input field panjang kolam = 10"
+# 9. Input field 'Lebar Kolam' = "12"
+#    - Masukkan nilai "12" di field 'Lebar Kolam'
+- tapOn:
+    point: 441, 724
+- inputText:
+    text: "12"
+    label: "input field lebar kolam = 12"
+- hideKeyboard
+# 10. Input field 'Kedalaman' = "1.5"
+#    - Masukkan nilai "1.5" di field 'Kedalaman'
+- tapOn:
+    point: 432, 931
+- inputText:
+    text: "1.5"
+# 11. Pilih tombol [Buat Kolam]
+#    - Klik tombol "Buat Kolam" untuk menyelesaikan proses pembuatan kolam
+- tapOn: "Buat Kolam"
+
+##ASSERT DATA
+- assertVisible: "Kolam Berhasil Dibuat"
+- stopApp
+
+## [READ]
+
+
+# 2. Pilih menu [Kolam]
+#    - Navigasi ke menu "Kolam" di dalam aplikasi
+
+# 3. Pilih field Tambak = "Test Automation"
+#    - Pilih Tambak dengan nama "Test Automation" dari daftar Tambak yang tersedia
+
+# 4. Pilih tombol gear pada card nama kolam
+#    - Klik tombol gear (ikon pengaturan) pada card kolam yang diinginkan
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+  
+
+
+
+
+
+  
+
+
