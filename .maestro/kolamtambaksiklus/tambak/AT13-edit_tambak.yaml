@@ -25,10 +25,23 @@ tags:
 - tapOn: 
     point: 238, 689 #Kolam
     waitToSettleTimeoutMs: 5000 # ms
+    delay: 5000
+- waitForAnimationToEnd:
+    timeout: 20000
+- extendedWaitUntil:
+    visible: 
+        text: "Kolam" # or any other selector
+    timeout: 10000
+- tapOn: "Tambak"
+    repeat: 2
+    delay: 2000 #Ngakalin
 
 - tapOn: 
     point: 306, 218 #Pilih field tambak
-- tapOn: "Test Automation"
+
+- tapOn: 
+    text: "Test Automation"
+    delay: 3000
 
 - waitForAnimationToEnd:
     timeout: 5000
