@@ -49,7 +49,7 @@ tags:
 - tapOn: "Ya, Saya Yakin"
 
 ## ASSERT DATA EDIT
-- assertVisible: "Tambak Sukses Disimpan"
+- assertVisible: "Tambak Sukses Dihapus"
 
 - stopApp
   

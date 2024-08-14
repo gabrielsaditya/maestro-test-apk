@@ -3,6 +3,8 @@ name: AT11
 tags:
   - AT11
 ---
+- clearState
+- launchApp
 - runFlow: login_email.yaml
 
 - tapOn:
