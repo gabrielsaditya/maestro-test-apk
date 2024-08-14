@@ -32,7 +32,8 @@ tags:
     visible: 
         text: "Kolam" # or any other selector
     timeout: 10000
-- tapOn: "Tambak"
+- tapOn: 
+    text: "Tambak"
     repeat: 2
     delay: 2000 #Ngakalin
 
