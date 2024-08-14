@@ -3,34 +3,35 @@ appId: tech.jala.android.lite
 - clearState
 - launchApp
 
-
-- tapOn: 
+- tapOn:
+    label: "Pilih tombol [Masuk]"
     text: "Masuk"
-    label: "Tap tombol masuk"
-
+    
 
 - tapOn: 
     text: "Masuk dengan No HP atau Email"
-    label: "Tap tombol [Masuk dengan No HP atau Email]"
+    label: "Pilih tombol [Masuk dengan No HP atau Email]"
+    
 
 
 - tapOn: 
     text: "No. Handphone atau Email"
-    label: "Tap tombol pada form [No. Handphone atau Email]"
+    label: "Masukkan alamat email jala.automation@gmail.com"
     index: 1
 - inputText: 
-    text: "08888321272"
-    label: "Mengetik nomor handphone"
+    text: "jala.automation@gmail.com"
+    label: "Ketik email jala.automation@gmail.com"
+    
 
 
 - tapOn:
     text: "Kata Sandi"
     label: "Masukkan password: jalaistimewa"
     index: 1
+
 - inputText: 
     text: "jalaistimewa"
-    label: "Mengetik password"
-
+    label: "Ketik password"
 
 - tapOn:
     text: "Masuk"
@@ -50,4 +51,6 @@ appId: tech.jala.android.lite
     label: "Assert dapat masuk ke page Beranda"
 
 - stopApp
+
 #REVISI
+
