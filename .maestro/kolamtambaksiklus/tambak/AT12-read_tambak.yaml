@@ -13,10 +13,6 @@ tags:
     text: "Lite"
     repeat: 3
     delay: 5000
-- extendedWaitUntil:
-    visible: 
-        text: "Estimasi tidak akurat. Lengkapi data pakan untuk meningkatkan estimasi akurasi" # or any other selector
-    timeout: 10000
 # Pilih menu [Kolam]
 - tapOn: 
     point: 238, 689 #Kolam

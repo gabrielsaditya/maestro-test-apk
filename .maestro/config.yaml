@@ -2,6 +2,11 @@
 flows:
   - kolamtambaksiklus/tambak/*
 excludeTags:
+  - AT2
+  - AT3
+  - AT5
+  - AT9
+  - AT10
   - AT11
   - AT12
   - AT13
