@@ -17,12 +17,16 @@ tags:
 - runFlow: login_email.yaml
 # Pilih menu [Kolam]
 - waitForAnimationToEnd:
-    timeout: 5000
+    timeout: 20000
+- extendedWaitUntil:
+    visible: 
+        text: "Kolam" # or any other selector
+    timeout: 10000
 - tapOn: 
     point: 238, 689 #Kolam
 # Pilih field Tambak = "Test Automation"
 - waitForAnimationToEnd:
-    timeout: 5000
+    timeout: 20000
 - tapOn: 
     point: 306, 218 #Pilih field tambak
 - waitForAnimationToEnd:

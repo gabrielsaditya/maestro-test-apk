@@ -6,11 +6,4 @@ excludeTags:
 executionOrder:
     continueOnFailure: false
     flowsOrder:
-        - AT11
-        - AT12
-        - AT13
-        - AT14
-        - AT15
-        - AT16
-        - AT17
-        - AT18
+        - full-crud-tambak

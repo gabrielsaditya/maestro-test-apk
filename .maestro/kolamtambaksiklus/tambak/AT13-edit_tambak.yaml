@@ -16,15 +16,18 @@ tags:
 # Login akun jala.automation
 - runFlow: login_email.yaml
 - waitForAnimationToEnd:
-    timeout: 5000
+    timeout: 20000
 - extendedWaitUntil:
     visible: 
         text: "Kolam" # or any other selector
-    timeout: 5000
+    timeout: 10000
 # Pilih menu [Kolam]
 - tapOn: 
     point: 238, 689 #Kolam
+- waitForAnimationToEnd:
+    timeout: 20000
 # Pilih field Tambak = "Test Automation"
+
 - tapOn: 
     point: 306, 218 #Pilih field tambak
 - tapOn: "Test Automation"
