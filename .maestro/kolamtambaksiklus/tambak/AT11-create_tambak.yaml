@@ -8,13 +8,10 @@ tags:
   - create
   - create-tambak
 ---
-- clearState
-- launchApp
-
 - runFlow: login_email.yaml
 
 - tapOn:
-    point: 303, 218
+    point: 297,197 #point field tambak
     label: "Tap Field Tambak"
 
 - tapOn:
@@ -24,6 +21,7 @@ tags:
     text: "contoh: Vaname Indonesia"
     label: "Tap Field Tambak"
 - inputText: "Test Automation"
+- hideKeyboard
 
 - tapOn:
     text: "Pilih provinsi"
@@ -53,12 +51,13 @@ tags:
     element: 
       text: "Zona Waktu"
     direction: down
-    label: "Scroll sampai bawah"
+- scroll
 
 - tapOn:
     text: "Masukan alamat tambak Anda"
     label: "Isi field alamat"
 - inputText: "Kampung Nelayan Pantai Samas"
+- hideKeyboard
 
 - tapOn:
     text: "Indonesian Rupiah (IDR)"

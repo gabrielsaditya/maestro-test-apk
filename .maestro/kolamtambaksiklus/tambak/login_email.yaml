@@ -7,6 +7,7 @@ tags:
   - tambak
   - login 
 ---
+- clearState
 - launchApp
 
 - tapOn:
