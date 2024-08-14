@@ -57,17 +57,23 @@ tags:
 - tapOn: "Pilih kecamatan"
 - tapOn: "cari"
 - inputText: "Wana"
-- tapOn: "WANAREJA"
+- tapOn: 
+    text: "WANAREJA"
+    retryTapIfNoChange: false
 - hideKeyboard
 # Ubah field 'Kelurahan' = "Tambaksari"
 - tapOn: 
     text: "Kelurahan"
     label: Pilih Kelurahan
+    retryTapIfNoChange: false
 - tapOn: 
     text: "TAMBAKSARI"
     label: "Pilih Kelurahan Tambaksari"
+    retryTapIfNoChange: false
 # Pilih tombol [Simpan]
-- tapOn: "Simpan"
+- tapOn: 
+    text: "Simpan"
+    retryTapIfNoChange: false
 
 ## ASSERT DATA EDIT
 - assertVisible: "Tambak Sukses Disimpan"

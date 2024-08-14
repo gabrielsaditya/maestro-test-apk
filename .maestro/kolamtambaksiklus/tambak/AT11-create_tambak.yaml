@@ -64,6 +64,7 @@ tags:
 
 - tapOn:
     text: "Buat Tambak"
+    retryTapIfNoChange: false
 
 - waitForAnimationToEnd:
     timeout: 5000

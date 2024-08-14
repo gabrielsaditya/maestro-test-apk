@@ -44,9 +44,13 @@ tags:
 - waitForAnimationToEnd:
     timeout: 5000
 # Pilih tombol [Hapus]
-- tapOn: "Hapus"
+- tapOn: 
+    text: "Hapus"
+    retryTapIfNoChange: false
 # Pilih tombol [Ya, saya yakin]
-- tapOn: "Ya, Saya Yakin"
+- tapOn: 
+    text: "Ya, Saya Yakin"
+    retryTapIfNoChange: false
 
 ## ASSERT DATA EDIT
 - assertVisible: "Tambak Sukses Dihapus"
