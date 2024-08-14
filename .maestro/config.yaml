@@ -1,6 +1,6 @@
 flows:
-  - kolamtambaksiklus/kolam*
-  - kolamtambaksiklus/tambak*
+  - kolam/*
+  - tambak/*
 executionOrder:
     continueOnFailure: false
     flowsOrder:
