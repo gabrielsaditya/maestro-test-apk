@@ -74,7 +74,7 @@ tags:
 - tapOn: 
     text: "WANAREJA"
     retryTapIfNoChange: false
-- hideKeyboard
+
 # Ubah field 'Kelurahan' = "Tambaksari"
 - tapOn: 
     text: "Kelurahan"
@@ -84,6 +84,11 @@ tags:
     text: "TAMBAKSARI"
     label: "Pilih Kelurahan Tambaksari"
     retryTapIfNoChange: false
+
+- tapOn: ##NGAKALIN
+    text: "Pengaturan Tambak"
+    repeat: 2
+    delay: 200
 # Pilih tombol [Simpan]
 - tapOn: 
     text: "Simpan"
