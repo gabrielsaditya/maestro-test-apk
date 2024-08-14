@@ -1,4 +1,12 @@
 appId: tech.jala.android.lite
+name: AT12
+tags:
+  - tag-build
+  - pull-request
+  - kolamtambaksiklus
+  - tambak
+  - read
+  - read-tambak
 ---
 - clearState
 - launchApp
