@@ -4,6 +4,8 @@ tags:
   - crud_kolam_full
 ---
 - clearState
+- runFlow: create_tambak(template).yaml
+- clearState
 - runFlow: AT15-create_kolam.yaml
 - clearState
 - runFlow: AT16-read_kolam.yaml
