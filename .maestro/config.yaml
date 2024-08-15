@@ -6,7 +6,7 @@ excludeTags:
   - AT16
   - AT17
   - AT18
-  - login
+  - prerequisite
 
 executionOrder:
     continueOnFailure: false
