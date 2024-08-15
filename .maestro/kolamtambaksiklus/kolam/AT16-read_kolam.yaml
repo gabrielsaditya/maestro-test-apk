@@ -30,7 +30,9 @@ tags:
 #########################
 - tapOn: 
     point: 306, 218 #Pilih field tambak
-- tapOn: "Test Automation"
+- tapOn: 
+    text: "Test Automation"
+    delay: 2000
 
 - tapOn:
     point: 544,379

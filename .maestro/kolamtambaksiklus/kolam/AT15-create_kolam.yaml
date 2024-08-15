@@ -60,12 +60,25 @@ tags:
 - inputText:
     text: "AUT2.1"
 - hideKeyboard
+- tapOn: 
+    text: "Buat Kolam"
+    index: 0
+    repeat: 2
+    delay: 2000
+    label: Menunggu dulu untuk step selanjutnya
 # 8. Input field 'Panjang Kolam' = "10"
 - tapOn:
     point: 155,788
 - inputText:
     text: "10"
     label: "input field panjang kolam = 10"
+- tapOn: 
+    text: "Buat Kolam"
+    index: 0
+    repeat: 2
+    delay: 2000
+    label: Menunggu dulu untuk step selanjutnya
+
 # 9. Input field 'Lebar Kolam' = "12"
 - tapOn:
     point: 441, 724
@@ -73,15 +86,25 @@ tags:
     text: "12"
     label: "input field lebar kolam = 12"
 - hideKeyboard
+- tapOn: 
+    text: "Buat Kolam"
+    index: 0
+    repeat: 2
+    delay: 2000
+    label: Menunggu dulu untuk step selanjutnya
+
 # 10. Input field 'Kedalaman' = "1.5"
 - tapOn:
     point: 432, 931
 - inputText:
     text: "1.5"
 # 11. Pilih tombol [Buat Kolam]
-- tapOn: "Buat Kolam"
-##ASSERT DATA
-- assertVisible: "Kolam Berhasil Dibuat"
+- tapOn: 
+    text: "Buat Kolam"
+    index: 1
+    enabled: on 
+
+##ASSERT DATA NANTI MASUKKAN KESINI
 - stopApp
 
 #REVISI

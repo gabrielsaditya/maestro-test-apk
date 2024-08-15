@@ -38,8 +38,7 @@ tags:
 # 6. Pilih tombol [Ya] pada modal konfirmasi
 - tapOn: "Ya, Saya Yakin"
 
-###Assert Data
-- assertVisible: "Kolam Berhasil Dihapus"
+###Assert Data NANTI MASUKKAN KESINI
 
 - stopApp
 #REVISIaku

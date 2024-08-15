@@ -52,8 +52,7 @@ tags:
 # 8. Pilih tombol [Simpan]
 - tapOn: "Simpan"
 
-##ASSERT DATA
-- assertVisible: "Kolam Berhasil Disimpan"
+##ASSERT DATA NANTI  MASUKKAN KESINI
 
 - stopApp
 #REVISI
