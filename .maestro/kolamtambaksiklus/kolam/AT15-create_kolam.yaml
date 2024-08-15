@@ -49,22 +49,20 @@ tags:
 - tapOn: "Buat Kolam"
 # 6. Input field nama awalan kolam = "AUT"
 - tapOn:
-    point: 300, 291
+    text: "A"
+- eraseText
 - inputText: 
     text: "AUT"
-    label: "Input field nama awalan kolam = AUT"
-- hideKeyboard
 # 7. Input field 'Nama Kolam' = "AUT2.1"
 - tapOn:
-    point: 300, 613
+    text: "AUT1"
 - eraseText
 - inputText:
     text: "AUT2.1"
-    label: "Input field Nama Kolam = AUT2.1"
 - hideKeyboard
 # 8. Input field 'Panjang Kolam' = "10"
 - tapOn:
-    point: 158, 827
+    point: 155,788
 - inputText:
     text: "10"
     label: "input field panjang kolam = 10"
