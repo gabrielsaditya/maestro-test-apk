@@ -1,19 +1,14 @@
 #config.yaml
 flows:
-  - kolamtambaksiklus/tambak/*
+  - kolamtambaksiklus/kolam/*
 excludeTags:
-  - AT2
-  - AT3
-  - AT5
-  - AT9
-  - AT10
-  - AT11
-  - AT12
-  - AT13
-  - AT14
+  - AT15
+  - AT16
+  - AT17
+  - AT18
   - login
 
 executionOrder:
     continueOnFailure: false
     flowsOrder:
-        - full-crud-tambak
+        - full-crud-kolam
