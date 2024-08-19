@@ -1,1 +1,112 @@
-#SIKLUS
+appId: tech.jala.android.lite
+name: AT20
+tags:
+  - AT20
+---
+- clearState
+- launchApp
+
+## [CREATE]
+# 1. Login akun jala.automation
+- runFlow: login_email.yaml
+
+
+
+#Bugfix
+- tapOn:
+    text: "Lite"
+    repeat: 3
+    delay: 5000
+
+
+
+
+
+# 2. Pilih menu [Kolam]
+- tapOn: 
+    point: 238, 689 #Kolam
+    waitToSettleTimeoutMs: 5000 # ms
+
+
+
+
+#########################
+- waitForAnimationToEnd:
+    timeout: 5000
+#########################
+
+
+
+
+# 3. Pilih field Tambak = "Test Automation"
+- tapOn: 
+    point: 306, 218 #Pilih field tambak
+- tapOn: "Test Automation"
+
+- tapOn: 
+    text: "DELAY(IGNORE THIS)"
+    optional: true
+    repeat: 3
+    delay: 5000
+    label: "Memproses step selanjutnya"
+
+- tapOn: 
+    point: 288, 414
+
+- tapOn: 
+    text: "DELAY(IGNORE THIS)"
+    optional: true
+    repeat: 3
+    delay: 5000
+    label: "Memproses step selanjutnya"
+
+- tapOn: 
+    point: 566, 79
+
+- tapOn: 
+    text: "DELAY(IGNORE THIS)"
+    optional: true
+    repeat: 3
+    delay: 5000
+    label: "Memproses step selanjutnya"
+
+- tapOn: "Pengaturan Siklus"
+
+
+
+
+
+
+#REVISI
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+  
+
+
+
+
+
+  
+
+
