@@ -1,6 +1,6 @@
 #config.yaml
 flows:
-  - login/*
+  - kolamsiklustambak/siklus/*
 excludeTags:
   - AT20
   - AT21
