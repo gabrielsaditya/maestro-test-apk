@@ -184,7 +184,7 @@ tags:
 - tapOn:
     text: "Opsional"
     index: 1
-- inpuText: "3"
+- inputText: "3"
 
 - tapOn: "Pilih spesies"
 - tapOn: "Penaeus Vannamei"
