@@ -89,7 +89,7 @@ tags:
     label: "Memproses step selanjutnya"
 #Edit data Harga Pakan
 - tapOn: "15000"
-- erasetext
+- eraseText
 - inputText: "17000"
 
 - tapOn: 
