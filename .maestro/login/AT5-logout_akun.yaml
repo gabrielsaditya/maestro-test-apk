@@ -6,7 +6,7 @@ tags:
 - clearState
 - launchApp
 
-- runFlow: AT2-login_menggunakan-email.yaml
+- runFlow: AT2-login_menggunakan_email.yaml
 
 - tapOn:
     point: 545, 1155
