@@ -181,9 +181,16 @@ tags:
     index: 0
 - inputText: "1"
 
+- tapOn: 
+    text: "DELAY(IGNORE THIS)"
+    optional: true
+    repeat: 3
+    delay: 5000
+    label: "Memproses step selanjutnya"
+
 - tapOn:
     text: "Opsional"
-    index: 1
+    index: 0
 - inputText: "3"
 
 - tapOn: "Pilih spesies"
