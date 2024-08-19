@@ -74,7 +74,7 @@ tags:
 
 #Edit data Total Tebar
 - tapOn: "100000"
-- erasetext
+- eraseText
 - inputText: "120000"
 
 - scrollUntilVisible:
