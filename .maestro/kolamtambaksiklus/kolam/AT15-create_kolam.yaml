@@ -55,7 +55,7 @@ tags:
     text: "AUT"
 # 7. Input field 'Nama Kolam' = "AUT2.1"
 - tapOn:
-    text: "AUT .*"
+    text: "AUT.*"
 - eraseText
 - inputText:
     text: "AUT2.1"
