@@ -192,6 +192,13 @@ tags:
     text: "Opsional"
     index: 0
 - inputText: "3"
+- hideKeyboard
+- tapOn: 
+    text: "DELAY(IGNORE THIS)"
+    optional: true
+    repeat: 3
+    delay: 5000
+    label: "Memproses step selanjutnya"
 
 - tapOn: "Pilih spesies"
 - tapOn: "Penaeus Vannamei"
