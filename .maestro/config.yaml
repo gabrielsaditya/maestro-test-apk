@@ -1,6 +1,6 @@
 #config.yaml
 flows:
-  - **
+  - */*
 excludeTags:
   - AT2
   - AT3
