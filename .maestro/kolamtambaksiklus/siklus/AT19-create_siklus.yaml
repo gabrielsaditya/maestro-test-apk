@@ -4,6 +4,10 @@ tags:
   - AT19
 ---
 - clearState
+- runFlow: create_tambak_template_kolam.yaml
+- clearState
+- runFlow: create_kolam_template_siklus.yaml
+- clearState
 - launchApp
 
 ## [CREATE]
@@ -249,7 +253,9 @@ tags:
     delay: 5000
     label: "Memproses step selanjutnya"
 
-- tapOn: "Pengaturan Siklus"
+- stopApp
+- clearState
+
 
 
 

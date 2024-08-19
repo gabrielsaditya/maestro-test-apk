@@ -50,8 +50,8 @@ tags:
 
 # Assert Data
 - assertVisible: 
-    containsDescendants: 
-        - text: "Beranda"
+    text: "Lite" ##Pastikan di Widget Inspector apakah bisa di pick
+    label: "Assert dapat masuk ke page Beranda"
 
 - stopApp
 
