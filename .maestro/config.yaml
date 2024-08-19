@@ -1,6 +1,6 @@
 #config.yaml
 flows:
-  - kolamsiklustambak/siklus/*
+  - kolamtambaksiklus/siklus/*
 excludeTags:
   - AT20
   - AT21
