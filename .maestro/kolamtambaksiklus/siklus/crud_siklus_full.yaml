@@ -4,7 +4,7 @@ tags:
   - crud_siklus_full
 ---
 - clearState
-- runFlow: create_tambak_template_kolam.yaml
+- runFlow: create_tambak_template_siklus.yaml
 - clearState
 - runFlow: create_kolam_template_siklus.yaml
 - clearState

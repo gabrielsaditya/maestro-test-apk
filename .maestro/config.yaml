@@ -2,10 +2,29 @@
 flows:
   - "**"
 includeTags:
-  - tagNameToInclude
+  - AT2
+  - AT3
+  - AT5
+  - AT9
+  - AT10
+  - AT11
+  - AT12
+  - AT13
+  - AT14
+  - AT15
+  - AT16
+  - AT17
+  - AT18
+  - AT19
+  - AT20
+  - AT21
+  - AT22 
 excludeTags:
   - prerequisite
   - login
+  - crud_siklus_full
+  - crud_full_tambak
+  - crud_kolam_full
 executionOrder:
     continueOnFailure: false
     flowsOrder:
