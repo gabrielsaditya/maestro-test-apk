@@ -8,7 +8,7 @@ tags:
 - launchApp
 
 ## [CREATE]
-# 1. Login akun jala.automation
+# 1. Login akun jala.automationa
 - runFlow: AT19-create_siklus.yaml
 
 

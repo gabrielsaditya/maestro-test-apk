@@ -8,7 +8,7 @@ tags:
 - launchApp
 
 ## [CREATE]
-# 1. Login akun jala.automation
+# 1. Login akun jala.automationa
 - runFlow: login_email.yaml
 
 

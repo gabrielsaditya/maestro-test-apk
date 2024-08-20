@@ -7,7 +7,7 @@ tags:
 - runFlow: AT16-read_kolam.yaml
 - launchApp
 
-# 1. Login akun jala.automation
+# 1. Login akun jala.automation~
 - runFlow: login_email.yaml
 #Bugfix
 - tapOn:

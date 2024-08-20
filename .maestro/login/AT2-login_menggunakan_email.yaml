@@ -50,7 +50,7 @@ tags:
 
 # Assert Data
 - assertVisible: 
-    text: "Lite" ##Pastikan di Widget Inspector apakah bisa di pick
+    text: "Lite" ##Pastikan di Widget Inspector apakah bisa di pick~
     label: "Assert dapat masuk ke page Beranda"
 
 - stopApp

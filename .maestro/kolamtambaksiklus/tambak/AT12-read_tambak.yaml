@@ -8,7 +8,7 @@ tags:
 - clearState
 - launchApp
 
-# Login akun jala.automation 
+# Login akun jala.automation ~
 - runFlow: login_email.yaml
 
 - tapOn: 

@@ -48,7 +48,7 @@ tags:
 - waitForAnimationToEnd:
     timeout: 5000
 
-# Assert Data
+# Assert Dataa
 - assertVisible: 
     text: "Lite" ##Pastikan di Widget Inspector apakah bisa di pick
     label: "Assert dapat masuk ke page Beranda"

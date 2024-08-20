@@ -8,7 +8,7 @@ tags:
 - runFlow: login_email.yaml
 
 - tapOn:
-    point: 297,197 #point field tambak
+    point: 297,197 #point field tambak~
     label: "Tap Field Tambak"
 
 - tapOn:

@@ -32,7 +32,7 @@ tags:
     timeout: 20000
 - extendedWaitUntil:
     visible: 
-        text: "Kolam" # or any other selector
+        text: "Kolam" # or any other selector~
     timeout: 10000
 - tapOn: 
     text: "Tambak"
