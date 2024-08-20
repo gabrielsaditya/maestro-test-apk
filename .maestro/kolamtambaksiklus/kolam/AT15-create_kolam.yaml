@@ -4,7 +4,7 @@ tags:
   - AT15
 ---
 - clearState
-- runflow: create_tambak_template_kolam.yaml
+- runFlow: create_tambak_template_kolam.yaml
 - clearState
 - launchApp
 
