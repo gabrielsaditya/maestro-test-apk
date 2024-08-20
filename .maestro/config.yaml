@@ -20,11 +20,7 @@ includeTags:
   - AT21
   - AT22 
 excludeTags:
-  - prerequisite
   - login
-  - crud_siklus_full
-  - crud_full_tambak
-  - crud_kolam_full
 executionOrder:
     continueOnFailure: false
     flowsOrder:
@@ -34,7 +30,6 @@ executionOrder:
         - AT15
         - AT16
         - AT17
-        - AT18
         - AT19
         - AT20
         - AT21
