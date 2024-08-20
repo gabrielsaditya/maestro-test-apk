@@ -3,10 +3,7 @@ name: AT19
 tags:
   - AT19
 ---
-- clearState
-- runFlow: create_tambak_template_siklus.yaml
-- clearState
-- runFlow: create_kolam_template_siklus.yaml
+
 - clearState
 - launchApp
 

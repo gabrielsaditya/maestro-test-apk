@@ -4,8 +4,6 @@ tags:
   - AT22
 ---
 - clearState
-- runFlow: AT21-edit_siklus.yaml
-- clearState
 - launchApp
 
 ## [CREATE]

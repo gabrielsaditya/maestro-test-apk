@@ -4,7 +4,6 @@ tags:
   - AT18
 ---
 - clearState
-- runFlow: AT17-edit_kolam.yaml
 - launchApp
     
 # 1. Login akun jala.automation~

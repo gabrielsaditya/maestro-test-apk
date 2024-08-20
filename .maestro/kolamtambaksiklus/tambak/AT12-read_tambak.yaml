@@ -4,8 +4,6 @@ tags:
   - AT12
 ---
 - clearState
-- runFlow: AT11-create_tambak.yaml
-- clearState
 - launchApp
 
 # Login akun jala.automation ~

@@ -3,11 +3,8 @@ name: AT14
 tags:
   - AT14
 ---
-- runFlow: AT13-edit_tambak.yaml
 - clearState
 - launchApp
-
-
 
 # Login akun jala.automation
 - runFlow: login_email.yaml
