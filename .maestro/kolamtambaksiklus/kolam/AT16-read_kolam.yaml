@@ -19,14 +19,14 @@ tags:
 
 - tapOn: 
     point: 238, 689 #Kolam
-    waitToSettleTimeoutMs: 5000 # ms
+    waitToSettleTimeoutMs: 2000 # ms
 
 
 
 
 #########################
 - waitForAnimationToEnd:
-    timeout: 5000
+    timeout: 2000
 #########################
 - tapOn:
     text: "Kolam"

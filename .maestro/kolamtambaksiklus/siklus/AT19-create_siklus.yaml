@@ -29,14 +29,14 @@ tags:
 # 2. Pilih menu [Kolam]
 - tapOn: 
     point: 238, 689 #Kolam
-    waitToSettleTimeoutMs: 5000 # ms
+    waitToSettleTimeoutMs: 2000 # ms
 
 
 
 
 #########################
 - waitForAnimationToEnd:
-    timeout: 5000
+    timeout: 2000
 #########################
 
 
@@ -134,7 +134,7 @@ tags:
 - tapOn:
     text: "Lite"
     repeat: 3
-    delay: 5000
+    delay: 2000
 
 
 
@@ -143,14 +143,14 @@ tags:
 # 2. Pilih menu [Kolam]
 - tapOn: 
     point: 238, 689 #Kolam
-    waitToSettleTimeoutMs: 5000 # ms
+    waitToSettleTimeoutMs: 2000 # ms
 
 
 
 
 #########################
 - waitForAnimationToEnd:
-    timeout: 5000
+    timeout: 2000
 #########################
 
 
@@ -165,7 +165,7 @@ tags:
     text: "DELAY(IGNORE THIS)"
     optional: true
     repeat: 3
-    delay: 5000
+    delay: 2000
     label: "Memproses step selanjutnya"
 
 - tapOn: 
@@ -189,7 +189,7 @@ tags:
     text: "DELAY(IGNORE THIS)"
     optional: true
     repeat: 3
-    delay: 5000
+    delay: 2000
     label: "Memproses step selanjutnya"
 
 - tapOn:
@@ -201,7 +201,7 @@ tags:
     text: "DELAY(IGNORE THIS)"
     optional: true
     repeat: 3
-    delay: 5000
+    delay: 2000
     label: "Memproses step selanjutnya"
 
 - tapOn: "Pilih spesies"
@@ -217,7 +217,7 @@ tags:
     text: "DELAY(IGNORE THIS)"
     optional: true
     repeat: 3
-    delay: 5000
+    delay: 2000
     label: "Memproses step selanjutnya"
 
 - tapOn:
@@ -230,7 +230,7 @@ tags:
     text: "DELAY(IGNORE THIS)"
     optional: true
     repeat: 3
-    delay: 5000
+    delay: 2000
     label: "Memproses step selanjutnya"
 
 - tapOn: 
@@ -240,7 +240,7 @@ tags:
     text: "DELAY(IGNORE THIS)"
     optional: true
     repeat: 3
-    delay: 5000
+    delay: 2000
     label: "Memproses step selanjutnya"
 
 - tapOn: 
@@ -250,7 +250,7 @@ tags:
     text: "DELAY(IGNORE THIS)"
     optional: true
     repeat: 3
-    delay: 5000
+    delay: 2000
     label: "Memproses step selanjutnya"
 
 - stopApp

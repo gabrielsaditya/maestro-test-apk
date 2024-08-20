@@ -4,6 +4,7 @@ tags:
   - AT20
 ---
 - clearState
+- runFlow: AT19-create_siklus.yaml
 - launchApp
 
 ## [CREATE]
@@ -24,7 +25,7 @@ tags:
 # 2. Pilih menu [Kolam]
 - tapOn: 
     point: 238, 689 #Kolam
-    waitToSettleTimeoutMs: 5000 # ms
+    waitToSettleTimeoutMs: 2000 # ms
 
 
 

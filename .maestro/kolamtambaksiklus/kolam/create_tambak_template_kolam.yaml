@@ -67,12 +67,12 @@ tags:
     retryTapIfNoChange: false
 
 - waitForAnimationToEnd:
-    timeout: 5000
+    timeout: 2000
 
 - extendedWaitUntil:
     notVisible: 
         text: "Buat Tambak" # or any other selector
-    timeout: 5000
+    timeout: 2000
 
 ## Assert data
 - assertVisible: "Buat Kolam"
