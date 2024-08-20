@@ -1,6 +1,11 @@
 #config.yaml ini
 flows:
   - "**"
+includeTags:
+  - tagNameToInclude
+excludeTags:
+  - prerequisite
+  - login
 executionOrder:
     continueOnFailure: false
     flowsOrder:
