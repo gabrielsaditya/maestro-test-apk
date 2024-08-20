@@ -2,11 +2,6 @@
 flows:
   - "**"
 includeTags:
-  - AT2
-  - AT3
-  - AT5
-  - AT9
-  - AT10
   - AT11
   - AT12
   - AT13
@@ -21,6 +16,11 @@ includeTags:
   - AT22 
 excludeTags:
   - login
+  - AT2
+  - AT3
+  - AT5
+  - AT9
+  - AT10
 executionOrder:
     continueOnFailure: false
     flowsOrder:
